@@ -1,0 +1,43 @@
+.userInfoContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.imgUserInfo {
+    width: 100px;
+}
+.name {
+    font-size: 27px;
+}
+.button-follow {
+    width: 100px;
+    height: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f3611e;
+    color: #fff;
+}
+.headerSection {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid gainsboro;
+}
+.headerSection nav {
+    margin: 10px;
+}
+.headerSection nav p {
+    color : gainsboro;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: gainsboro;
+}
