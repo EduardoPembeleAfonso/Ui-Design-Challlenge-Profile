@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 //imgs
 import Eduardo from '../img/Eduardo.jpg';
@@ -7,6 +7,13 @@ import Eduardo from '../img/Eduardo.jpg';
 import '../styles/UserInfo.css';
 
 const UserInfo = () => {
+    const [bodyActive, setBodyActive] = useState(false);
+
+
+    const handleClickBody = () => {
+        setBodyActive(true);
+    }
+
     return (
         <div className="userInfoContainer">
             <div className="header">
@@ -30,11 +37,11 @@ const UserInfo = () => {
                 </nav>
             </div>
             <div className="body">
-                <b>Coleção</b>
-                <b>Equipe</b>
-                <b>Trabalhos em progresso</b>
-                <b>Blog</b>
-                <b>Arquivos</b>
+                <p className="body-active" >Coleção</p>
+                <p className="body-active" >Equipe</p>
+                <p className="body-active" >Trabalhos em progresso</p>
+                <p className="body-active" >Blog</p>
+                <p className="body-active" >Arquivos</p>
             </div>
         </div>
     )
