@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Ui-Design-Challlenge-Profile/static/css/main.730fb258.css",
+    "main.js": "/Ui-Design-Challlenge-Profile/static/js/main.c373d352.js",
+    "static/js/787.6a9fb2f9.chunk.js": "/Ui-Design-Challlenge-Profile/static/js/787.6a9fb2f9.chunk.js",
+    "static/media/img3.webp": "/Ui-Design-Challlenge-Profile/static/media/img3.eeeb3bc2f1834d09ffc5.webp",
+    "static/media/img1.jpg": "/Ui-Design-Challlenge-Profile/static/media/img1.53f9d7e9cf0841d35896.jpg",
+    "static/media/leao.jpeg": "/Ui-Design-Challlenge-Profile/static/media/leao.18eac5decd26766b9a1a.jpeg",
+    "static/media/mountain.jpg": "/Ui-Design-Challlenge-Profile/static/media/mountain.94d24710d1a64ad98b0c.jpg",
+    "static/media/img5.jpg": "/Ui-Design-Challlenge-Profile/static/media/img5.e3a278a9512de493377e.jpg",
+    "static/media/img4.jpg": "/Ui-Design-Challlenge-Profile/static/media/img4.68f59f4fc7ab2993860b.jpg",
+    "static/media/img6.jpg": "/Ui-Design-Challlenge-Profile/static/media/img6.bf0e52028f779ab74ba1.jpg",
+    "static/media/img2.jpg": "/Ui-Design-Challlenge-Profile/static/media/img2.14fe5b53959e50691d0f.jpg",
+    "index.html": "/Ui-Design-Challlenge-Profile/index.html",
+    "main.730fb258.css.map": "/Ui-Design-Challlenge-Profile/static/css/main.730fb258.css.map",
+    "main.c373d352.js.map": "/Ui-Design-Challlenge-Profile/static/js/main.c373d352.js.map",
+    "787.6a9fb2f9.chunk.js.map": "/Ui-Design-Challlenge-Profile/static/js/787.6a9fb2f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.730fb258.css",
+    "static/js/main.c373d352.js"
+  ]
+}
