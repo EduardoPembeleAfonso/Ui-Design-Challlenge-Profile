@@ -1,9 +1,10 @@
 .userInfoContainer {
-    width: 100%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 50px;
 }
 .header {
     display: flex;
@@ -43,12 +44,13 @@
 .body {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     font-size: 15px;
     color: darkgrey;
+    width: 60%;
 }
 .body p {
     cursor: pointer;
+    text-align: start;
 }
 .body-active:hover {
     color: #000;

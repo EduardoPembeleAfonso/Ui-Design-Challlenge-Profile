@@ -1,0 +1,218 @@
+.body-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+}
+.container-collections {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+.collections {
+    width: 100%;
+    height: 23vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 10px;
+}
+.collections strong {
+    color: darkgray;
+    margin: 10px;
+}
+.container-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.img-collections {
+    width: 70px;
+    height: 70px;
+    border: none;
+    border-radius: 50px;
+}
+.img-collections:hover {
+    transition: all 1s ease;
+    transform: rotate(360deg);
+    cursor: pointer;
+}
+.others-users {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.name-other-user {
+    color: darkgray;
+    margin: 10px;
+}
+.container-others-users {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+}
+.photo-container {
+    display: flex;
+    flex-direction: column;
+}
+.photo {
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 80px;
+}
+.members {
+    margin-top: -30px;
+    align-self: center;
+    text-align: center;
+    width: 110px;
+    height: 25px;
+    padding-top: 4px;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+.formed {
+    margin-top: -20px;
+    margin-bottom: 20px;
+    color: darkgray;
+}
+.button-follow-other {
+    width: 100px;
+    height: 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: #f3611e;
+    color: #fff;
+}
+.button-follow-other:hover {
+    background-color: gainsboro;
+    color: #f3611e;
+    cursor: pointer;
+}
+.details-text {
+    color: darkgray;
+}
+.biography {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.container-website {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.website-url {
+    color: #f3611e;
+}
+.website-url:hover {
+    cursor: pointer;
+}
+.container-skills {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.my-skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.my-skills button {
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+.html {
+    background-color: #f3611e;
+    color: #fff;
+}
+.html:hover {
+    background-color: gainsboro;
+    color: #f3611e;
+    cursor: pointer;
+}
+.css {
+    background-color: rgb(32, 32, 252);
+    color: #fff;
+}
+.css:hover {
+    background-color: gainsboro;
+    color: rgb(32, 32, 252);
+    cursor: pointer;
+}
+.js {
+    background-color: yellow;
+    color: #000;
+}
+.js:hover {
+    background-color: gainsboro;
+    color: yellow;
+    cursor: pointer;
+}
+.react {
+    background-color: rgb(107, 107, 250);
+    color: #fff;
+}
+.react:hover {
+    background-color: gainsboro;
+    color: rgb(107, 107, 250);
+    cursor: pointer;
+}
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.message {
+    width: 100%;
+    height: 20px;
+    border: 1px solid darkgray;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    color: #000;
+    background-color: #fff;
+    text-align: center;
+}
+.button-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.button-form button, a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: gainsboro;
+    color: #f3611e;
+}
+.button-form button:hover {
+    cursor: pointer;
+    background-color: #f3611e;
+    color: #fff;
+}
+.button-form a:hover {
+    cursor: pointer;
+    background-color: #f3611e;
+    color: #fff;
+}
